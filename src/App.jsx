@@ -1,15 +1,18 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
+import {
+  BrowserRouter as Router,
+} from 'react-router-dom'
+
+import Switch from './switch'
 
 import './App.css';
+import Frame from './frame/component'
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>My React App!</h1>
-      </div>
-    );
-  }
+
+export default function () {
+  return (
+    <Router>
+      <Frame />
+    </Router>
+  )
 }
-
-export default App;
