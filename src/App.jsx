@@ -11,8 +11,6 @@ import Frame from './frame/component'
 
 export default function () {
   return (
-    <Router>
       <Frame />
-    </Router>
   )
 }
