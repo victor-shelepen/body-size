@@ -3,7 +3,7 @@ import {
   Switch,
   Route,
 } from 'react-router-dom'
-import Home from './page/home'
+import Progress from './page/progress'
 import About from './page/about'
 
 export default
@@ -12,6 +12,6 @@ export default
       <About />
     </Route>
     <Route path='/'>
-      <Home />
+      <Progress />
     </Route>
   </Switch>
