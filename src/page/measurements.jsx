@@ -49,8 +49,8 @@ export default function () {
         </Grid>
         <Grid item xs={8}>
           <Grid container>
-            {Object.entries(dayMeasurements).map(([a, b], k) => (
-              <Fragment>
+            {Object.entries(dayMeasurements).map(([a, b]) => (
+              <Fragment key={a}>
                 <Grid item xs={6}>{a}</Grid>
                 <Grid item xs={6}>{b}</Grid>
               </Fragment>

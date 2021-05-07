@@ -1,20 +1,18 @@
 import React from "react"
 import {
   Switch,
-  Route,
+  Route
 } from 'react-router-dom'
 import Progress from './page/progress'
-import About from './page/about'
 import Measurements from './page/measurements'
+import Grid from './page/grid'
 
 export default
   <Switch>
-    <Route path='/about'>
-      <About />
-    </Route>
     <Route path='/measurements'>
       <Measurements />
     </Route>
+    <Route path="/grid" component={Grid} />
     <Route path='/'>
       <Progress />
     </Route>

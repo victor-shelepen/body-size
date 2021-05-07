@@ -36,7 +36,7 @@ export default function () {
         </IconButton>
         <Button color="inherit" component={Link} to='/'>Progress</Button>
         <Button color="inherit" component={Link} to='/measurements'>Measurements</Button>
-        <Button color="inherit" component={Link} to='/about' >About</Button>
+        <Button color="inherit" component={Link} to='/grid' >Grid</Button>
         <a className={classes.aboutLink} href='http://victor-shelepen.blogspot.com/2021/05/victors-body-measurements-version-one.html' >About</a>
       </Toolbar>
     </AppBar>

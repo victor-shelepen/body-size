@@ -1,6 +1,6 @@
 export default {
   date: '2021-02-10',
-  weight: 76,
+  weight: 81,
   height: 172,
   wristLeft: 18,
   wristRight: 18,

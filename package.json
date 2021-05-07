@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.17",
+    "@material-ui/data-grid": "^4.0.0-alpha.27",
     "@material-ui/icons": "^4.11.2",
     "date-fns": "^2.21.1",
     "materialize-css": "^1.0.0-rc.2",
