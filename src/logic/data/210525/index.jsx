@@ -1,5 +1,5 @@
 export default {
-  date: '2016-02-10',
+  date: '2021-02-10',
   weight: 76,
   height: 172,
   wristLeft: 18,

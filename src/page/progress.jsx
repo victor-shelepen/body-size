@@ -25,7 +25,7 @@ export default function () {
 
   return (
     <div>
-      <h2>Progress</h2>
+      <h1>Progress</h1>
       <div style={{ width: '100%', height: '300px'}}>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={8}>

@@ -34,7 +34,8 @@ export default function () {
         >
           <MenuIcon />
         </IconButton>
-        <Button color="inherit" component={Link} to='/progress'>Progress</Button>
+        <Button color="inherit" component={Link} to='/'>Progress</Button>
+        <Button color="inherit" component={Link} to='/measurements'>Measurements</Button>
         <Button color="inherit" component={Link} to='/about' >About</Button>
         <a className={classes.aboutLink} href='http://victor-shelepen.blogspot.com/2021/05/victors-body-measurements-version-one.html' >About</a>
       </Toolbar>

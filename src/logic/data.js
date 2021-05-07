@@ -2,6 +2,7 @@ import data from './data/index'
 
 export default function () {
   return data
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
 }
 
 export const getTypes = function () {
